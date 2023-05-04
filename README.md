@@ -1,5 +1,5 @@
 # SPRI-based_Qunatitative_Reseptor_Density_Model
-Here would like to introduce a numerical approach, building on our previous work \cite{weerakkody_optical_2020, weerakkody_surface_2020}, with the aim to approximately evaluate immobilized peptide densities based on the change in reflectivity observed on the SPRI sensor chip during gas phase analysis.
+Here would like to introduce a numerical approach, building on our previous work (DOI - 10.1117/12.2555450, 10.1021/acs.jpcc.9b09973), with the aim to approximately evaluate immobilized peptide densities based on the change in reflectivity observed on the SPRI sensor chip during gas phase analysis.
 
 Based on the definition of the refractive index sensitivity $\partial R/\partial n$, an observed reflectivity shift $\Delta R$ may be accounted for with a change in refractive index along the $z-$direction $\Delta n (z)$:
 
@@ -7,7 +7,7 @@ Based on the definition of the refractive index sensitivity $\partial R/\partial
     $\Delta R = \int_0^{\infty} \frac{\partial R}{\partial n} \Delta n (z) \exp \left(-\frac{z}{L_z} \right) \frac{dz}{L_z}$
 
 
-\noindent where the penetration depth $L_z$ a simple exponential decay of the plasmonic wave at proximity of the \ce{Au}-air interface is defined as:
+\noindent where the penetration depth $L_z$ a simple exponential decay of the plasmonic wave at proximity of the \ce{Au}-air interfa ce is defined as:
 
 
 $L_{z} = \frac{\lambda_{w}}{4\pi Im[\frac{\epsilon_{air}}{\sqrt{\epsilon_{air}+\epsilon_{Au}}}]},$
@@ -33,4 +33,4 @@ Now, this can be substituted into equation \ref{eq:deltaRpep}. However, since we
    $\sigma_{peptide} = \frac{\Delta R N_{A} L_{z}}{\frac{\partial R}{\partial n} A M V_{0}}$
 
 
-Here, we can see that $A$ is a concentration independent form of $\Delta n_{peptide}/M$. Even though this value is unique for different compounds, generally, similar compounds have shown to have near equivalent values. Therefore, $A$ was assumed to be $20\,mol.g^{-1}$ for all peptide SAMs similar to other equivalent weighted hydrocarbons \cite{w_c_kaye_tables_2019}. It is important to point out that this value provides the largest discrepancy in this approach. Based on recent peptide-related refractive index studies \cite{santi_real-time_2013, de_la_torre_refractive_2021}, we believe that the nature of the receptor and its conformation in the SAM could potentially cause variations in this value. On that account, we caution the use of this value with larger proteins and complex supramolecular assemblies. 
+Here, we can see that $A$ is a concentration independent form of $\Delta n_{peptide}/M$. Even though this value is unique for different compounds, generally, similar compounds have shown to have near equivalent values. Therefore, $A$ was assumed to be $20\,mol.g^{-1}$ for all peptide SAMs similar to other equivalent weighted hydrocarbons (ISBN - 978-93-5392-270-2). It is important to point out that this value provides the largest discrepancy in this approach. Based on recent peptide-related refractive index studies (DOI - 10.1002/cphc.201300633, 10.1021/acs.oprd.1c00051), we believe that the nature of the receptor and its conformation in the SAM could potentially cause variations in this value. On that account, we caution the use of this value with larger proteins and complex supramolecular assemblies. 
