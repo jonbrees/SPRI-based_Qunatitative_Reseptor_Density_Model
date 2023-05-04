@@ -4,7 +4,7 @@ Here would like to introduce a numerical approach, building on our previous work
 Based on the definition of the refractive index sensitivity $\partial R/\partial n$, an observed reflectivity shift $\Delta R$ may be accounted for with a change in refractive index along the $z-$direction $\Delta n (z)$:
 
 
-    $\Delta R = \int_0^{\infty} \frac{\partial R}{\partial n} \Delta n (z) \exp \left(-\frac{z}{L_z} \right) \frac{dz}{L_z}$
+  $\Delta R = \int_0^{\infty} \frac{\partial R}{\partial n} \Delta n (z) \exp \left(-\frac{z}{L_z} \right) \frac{dz}{L_z}$
 
 
 \noindent where the penetration depth $L_z$ a simple exponential decay of the plasmonic wave at proximity of the \ce{Au}-air interfa ce is defined as:
