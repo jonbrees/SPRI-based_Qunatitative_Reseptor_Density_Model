@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+authors:
+  - family-names: Jonathan
+    given-names: Weerakkody
+    orcid: https://orcid.org/0000-0002-7949-3965
+  - family-names: Yanxia
+    given-names: Hou
+    orcid: https://orcid.org/0000-0002-2991-1030
+  - family-names: Arnaud
+    given-names: Buhot
+    orcid: https://orcid.org/0000-0001-7643-4305
+title: "SPRI-based Quantitative Receptor Density Model"
+version: 2.0.4
+doi: 10.5281/zenodo.7909225
+date-released: 2023-05-08
