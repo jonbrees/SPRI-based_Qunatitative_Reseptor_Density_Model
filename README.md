@@ -1,4 +1,4 @@
-# SPRI-based_Qunatitative_Reseptor_Density_Model
+# SPRI-based_Quantitative_Receptor_Density_Model
 Here would like to introduce a numerical approach, building on our previous work (DOI - 10.1117/12.2555450, 10.1021/acs.jpcc.9b09973), with the aim to approximately evaluate immobilized peptide densities based on the change in reflectivity observed on the SPRI sensor chip during gas phase analysis.
 
 Based on the definition of the refractive index sensitivity $\partial R/\partial n$, an observed reflectivity shift $\Delta R$ may be accounted for with a change in refractive index along the $z-$direction $\Delta n (z)$:
